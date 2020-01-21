@@ -1,6 +1,0 @@
-framework module ZTTextField {
-  umbrella header "ZTTextField.h"
-
-  export *
-  module * { export * }
-}
