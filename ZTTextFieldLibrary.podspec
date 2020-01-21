@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = ['ZTTextFieldLibrary/Classes/ZTTextFieldLibrary.framework']
   # s.source_files = 'ZTTextFieldLibrary/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'ZTTextFieldLibrary' => ['ZTTextFieldLibrary/Assets/*.png']
   # }
