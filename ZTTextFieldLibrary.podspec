@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTTextFieldLibrary'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'A short description of ZTTextFieldLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ZTTextFieldLibrary/Classes/**/*'
+  s.vendored_frameworks = ['ZTTextFieldLibrary/Classes/ZTTextFieldLibrary.framework']
+  # s.source_files = 'ZTTextFieldLibrary/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ZTTextFieldLibrary' => ['ZTTextFieldLibrary/Assets/*.png']

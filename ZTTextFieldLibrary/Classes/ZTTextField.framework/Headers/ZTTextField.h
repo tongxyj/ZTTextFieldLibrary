@@ -1,12 +1,21 @@
 //
 //  ZTTextField.h
-//  ZTTextFieldText
+//  ZTTextField
 //
-//  Created by zhaitong on 2017/12/14.
-//  Copyright © 2017年 zhaitong. All rights reserved.
+//  Created by zhaitong on 2020/1/21.
+//  Copyright © 2020 chebada.bashiguanjia. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+//! Project version number for ZTTextField.
+FOUNDATION_EXPORT double ZTTextFieldVersionNumber;
+
+//! Project version string for ZTTextField.
+FOUNDATION_EXPORT const unsigned char ZTTextFieldVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <ZTTextField/PublicHeader.h>
+
 
 typedef NS_ENUM(NSInteger, ZTTextFieldType) {
     ZTTextFieldTypeNoBorder = 0,
